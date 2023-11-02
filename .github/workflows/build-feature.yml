@@ -5,9 +5,9 @@ on:
       - feature/*
 jobs:
   build-feature:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: pull and checkout from git repository
         run: |
            echo "pulling and checking out from git repository"
@@ -33,3 +33,9 @@ jobs:
       #   run: |
       #     cp -R dist/customer-front/* ../customer-back/src/main/resources/static/
       #     echo "copy build to customer-back/src/main/resources/stati
+
+
+
+      
+
+      
