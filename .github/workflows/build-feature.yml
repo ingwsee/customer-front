@@ -33,12 +33,3 @@ jobs:
       #   run: |
       #     cp -R dist/customer-front/* ../customer-back/src/main/resources/static/
       #     echo "copy build to customer-back/src/main/resources/stati
-
-
-
-      
-<<<<<<< HEAD
-=======
-
-      
->>>>>>> 4b3c74eaeb7706a71d7b29a5191364fe3679e722
