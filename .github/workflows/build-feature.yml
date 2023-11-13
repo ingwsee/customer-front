@@ -2,12 +2,12 @@ name: build and test feature branch
 on:
   push:
     branches:
-      - feature/*
+      - feauture/*
 jobs:
   build-feature:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: pull and checkout from git repository
         run: |
            echo "pulling and checking out from git repository"
@@ -26,7 +26,7 @@ jobs:
       - name: run test and build angular app
         run: |
           ng test --watch=false
-          ng build
+          ng build 
           echo "run test and build angular app"
 
       # - name: copy build to customer-back/src/main/resources/static folder
